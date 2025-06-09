@@ -1,23 +1,27 @@
-# Eclipse files
-/.settings
-/.classpath
-/.project
-/eclipse/
-/target-eclipse
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# IntelliJ files
-*.iws
-*.iml
-.idea
-/out
-*.ipr
+# dependencies
+/node_modules
 
-# Gradle files
-.gradletasknamecache
-.gradle/
+# next.js
+/.next/
+/out/
 
-# Mac OS files
-.DS_Store
-
-# Build files
+# production
 /build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
